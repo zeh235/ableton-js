@@ -36,6 +36,11 @@ export interface ObservableProperties {
   color_index: number;
   is_triggered: boolean;
   name: string;
+  tempo: number;
+  tempo_enabled: boolean;
+  time_signature_numerator: number;
+  time_signature_denominator: number;
+  time_signature_enabled: boolean;
 }
 
 export interface RawScene {
